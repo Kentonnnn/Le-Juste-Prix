@@ -1,0 +1,106 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Satisfy&display=swap');
+
+body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #344E41;
+    background: -webkit-linear-gradient(to right, #588157, #A3B18A);
+    background: linear-gradient(to right, #588157, #A3B18A);
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 400;
+    color: #344E41;
+    margin-top: 70%;
+}
+
+/* FORUMLAIRE */
+
+main{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+input{
+    height: 50px;
+    width: 600px;
+    margin: 10px;
+    font-size: 1em;
+    padding: 10px;
+}
+
+small{
+    color: red;
+    padding: 10px;
+}
+
+button{
+    color: white;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(50, 150, 231);
+    font-weight: 300;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: 1px solid rgb(50, 150, 231);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* INSTRUCTION */
+
+.instruction {
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.plus {
+    background-color: #f67280;
+}
+
+.moins {
+    background-color: #ffa372;
+}
+
+.fini {
+    background-color : #0c9463;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 500px) {
+    main{
+        width: 350px;
+    }
+
+    input{
+        width: 300px;
+    }
+}
+
